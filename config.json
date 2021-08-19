@@ -26,7 +26,184 @@
   "configuration": {},
   "connections": [],
   "defaultSession": {
-    "name": "New Session"
+    "id": "fQ0k2bNoI",
+    "name": "Default session",
+    "margin": 0,
+    "drawerWidth": 384,
+    "views": [
+      {
+        "id": "ahl4FowpJ",
+        "type": "LinearGenomeView",
+        "offsetPx": 333,
+        "bpPerPx": 5.464161027017583,
+        "displayedRegions": [
+          {
+            "refName": "1",
+            "start": 0,
+            "end": 30427671,
+            "reversed": false,
+            "assemblyName": "TAIR10"
+          }
+        ],
+        "tracks": [
+          {
+            "id": "feGWs9fNL",
+            "type": "FeatureTrack",
+            "configuration": "Araport11 gene locus",
+            "displays": [
+              {
+                "id": "2Oq50qMjnF",
+                "type": "LinearBasicDisplay",
+                "height": 100,
+                "configuration": "Araport11 gene locus-LinearBasicDisplay"
+              }
+            ]
+          },
+          {
+            "id": "TNvLXU9qWL",
+            "type": "AlignmentsTrack",
+            "configuration": "Col0-nuclearRNA-non-polya",
+            "displays": [
+              {
+                "id": "GEofaCGl3c",
+                "type": "LinearAlignmentsDisplay",
+                "PileupDisplay": {
+                  "id": "6-NIYAlwTW",
+                  "type": "LinearPileupDisplay",
+                  "height": 100,
+                  "configuration": {
+                    "type": "LinearPileupDisplay",
+                    "displayId": "Col0-nuclearRNA-non-polya-LinearAlignmentsDisplay_pileup_xyz"
+                  },
+                  "showSoftClipping": false,
+                  "filterBy": {
+                    "flagInclude": 0,
+                    "flagExclude": 1536
+                  }
+                },
+                "SNPCoverageDisplay": {
+                  "id": "4wTTyQfTAG",
+                  "type": "LinearSNPCoverageDisplay",
+                  "height": 45,
+                  "configuration": {
+                    "type": "LinearSNPCoverageDisplay",
+                    "displayId": "Col0-nuclearRNA-non-polya-LinearAlignmentsDisplay_snpcoverage_xyz"
+                  },
+                  "selectedRendering": "",
+                  "resolution": 1,
+                  "constraints": {},
+                  "filterBy": {
+                    "flagInclude": 0,
+                    "flagExclude": 1536
+                  }
+                },
+                "snpCovHeight": 45,
+                "configuration": "Col0-nuclearRNA-non-polya-LinearAlignmentsDisplay",
+                "height": 250,
+                "showCoverage": true,
+                "showPileup": true
+              }
+            ]
+          },
+          {
+            "id": "CohiihSvH",
+            "type": "AlignmentsTrack",
+            "configuration": "Col0-nuclearRNA-polya",
+            "displays": [
+              {
+                "id": "RYopqtqrYP",
+                "type": "LinearAlignmentsDisplay",
+                "PileupDisplay": {
+                  "id": "5yVTb1xY8p",
+                  "type": "LinearPileupDisplay",
+                  "height": 100,
+                  "configuration": {
+                    "type": "LinearPileupDisplay",
+                    "displayId": "Col0-nuclearRNA-polya-LinearAlignmentsDisplay_pileup_xyz"
+                  },
+                  "showSoftClipping": false,
+                  "filterBy": {
+                    "flagInclude": 0,
+                    "flagExclude": 1536
+                  }
+                },
+                "SNPCoverageDisplay": {
+                  "id": "ukQP1qu8xc",
+                  "type": "LinearSNPCoverageDisplay",
+                  "height": 45,
+                  "configuration": {
+                    "type": "LinearSNPCoverageDisplay",
+                    "displayId": "Col0-nuclearRNA-polya-LinearAlignmentsDisplay_snpcoverage_xyz"
+                  },
+                  "selectedRendering": "",
+                  "resolution": 1,
+                  "constraints": {},
+                  "filterBy": {
+                    "flagInclude": 0,
+                    "flagExclude": 1536
+                  }
+                },
+                "snpCovHeight": 45,
+                "configuration": "Col0-nuclearRNA-polya-LinearAlignmentsDisplay",
+                "height": 250,
+                "showCoverage": true,
+                "showPileup": true
+              }
+            ]
+          },
+          {
+            "id": "-Ei_Nwaha",
+            "type": "FeatureTrack",
+            "configuration": "polyA sites",
+            "displays": [
+              {
+                "id": "wlmBvqnbOt",
+                "type": "LinearBasicDisplay",
+                "height": 100,
+                "configuration": "polyA sites-LinearBasicDisplay"
+              }
+            ]
+          },
+          {
+            "id": "PPfIQRiyVL",
+            "type": "FeatureTrack",
+            "configuration": "polyA clusters",
+            "displays": [
+              {
+                "id": "IUMzRQZQla",
+                "type": "LinearBasicDisplay",
+                "height": 100,
+                "configuration": "polyA clusters-LinearBasicDisplay"
+              }
+            ]
+          }
+        ],
+        "hideHeader": false,
+        "hideHeaderOverview": false,
+        "trackSelectorType": "hierarchical",
+        "trackLabels": "overlapping",
+        "showCenterLine": false
+      }
+    ],
+    "widgets": {
+      "hierarchicalTrackSelector": {
+        "id": "hierarchicalTrackSelector",
+        "type": "HierarchicalTrackSelectorWidget",
+        "collapsed": {},
+        "filterText": "",
+        "view": "ahl4FowpJ",
+        "collapsedCategories": {}
+      }
+    },
+    "activeWidgets": {
+      "hierarchicalTrackSelector": "hierarchicalTrackSelector"
+    },
+    "connectionInstances": [],
+    "sessionTracks": [],
+    "sessionConnections": [],
+    "sessionAssemblies": [],
+    "sessionPlugins": [],
+    "minimized": false
   },
   "tracks": [
     {
