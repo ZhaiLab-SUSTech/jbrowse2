@@ -1,0 +1,56 @@
+{
+  "assemblies": [
+    {
+      "name": "TAIR10",
+      "sequence": {
+        "type": "ReferenceSequenceTrack",
+        "trackId": "TAIR10-ReferenceSequenceTrack",
+        "adapter": {
+          "type": "BgzipFastaAdapter",
+          "fastaLocation": {
+            "uri": "https://data.cyverse.org/dav-anon/iplant/home/windz/Arabidopsis_thaliana.TAIR10.dna.toplevel.fa.gz"
+          },
+          "faiLocation": {
+            "uri": "https://data.cyverse.org/dav-anon/iplant/home/windz/Arabidopsis_thaliana.TAIR10.dna.toplevel.fa.gz.fai"
+          },
+          "gziLocation": {
+            "uri": "https://data.cyverse.org/dav-anon/iplant/home/windz/Arabidopsis_thaliana.TAIR10.dna.toplevel.fa.gz.gzi"
+          }
+        }
+      },
+      "aliases": [
+        "tair10"
+      ]
+    }
+  ],
+  "configuration": {},
+  "connections": [],
+  "defaultSession": {
+    "name": "New Session"
+  },
+  "tracks": [
+    {
+      "type": "FeatureTrack",
+      "trackId": "Araport11 gene locus",
+      "name": "Araport11 gene locus",
+      "category": [
+        "Annotation"
+      ],
+      "assemblyNames": [
+        "TAIR10"
+      ],
+      "adapter": {
+        "type": "Gff3TabixAdapter",
+        "gffGzLocation": {
+          "uri": "https://data.cyverse.org/dav-anon/iplant/home/windz/Araport11_GFF3_genes_transposons.201606.sorted.gff.gz"
+        },
+        "index": {
+          "location": {
+            "uri": "https://data.cyverse.org/dav-anon/iplant/home/windz/Araport11_GFF3_genes_transposons.201606.sorted.gff.gz.tbi"
+          },
+          "indexType": "TBI"
+        }
+      }
+    }
+  ]
+}
