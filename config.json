@@ -121,6 +121,122 @@
           }
         }
       }
+    },
+    {
+      "type": "FeatureTrack",
+      "trackId": "polyA clusters",
+      "name": "polyA clusters",
+      "category": [
+        "Polyadenylation sites"
+      ],
+      "assemblyNames": [
+        "TAIR10"
+      ],
+      "adapter": {
+        "type": "BedTabixAdapter",
+        "bedGzLocation": {
+          "uri": "https://data.cyverse.org/dav-anon/iplant/home/windz/termination/cbRNA.polya_cluster.bed.gz"
+        },
+        "index": {
+          "location": {
+            "uri": "https://data.cyverse.org/dav-anon/iplant/home/windz/termination/cbRNA.polya_cluster.bed.gz.tbi"
+          },
+          "indexType": "TBI"
+        }
+      }
+    },
+    {
+      "type": "FeatureTrack",
+      "trackId": "polyA sites",
+      "name": "polyA sites",
+      "category": [
+        "Polyadenylation sites"
+      ],
+      "assemblyNames": [
+        "TAIR10"
+      ],
+      "adapter": {
+        "type": "BedTabixAdapter",
+        "bedGzLocation": {
+          "uri": "https://data.cyverse.org/dav-anon/iplant/home/windz/termination/cbRNA.polya_cluster.summit.sorted.bed.gz"
+        },
+        "index": {
+          "location": {
+            "uri": "https://data.cyverse.org/dav-anon/iplant/home/windz/termination/cbRNA.polya_cluster.summit.sorted.bed.gz.tbi"
+          },
+          "indexType": "TBI"
+        }
+      }
+    },
+    {
+      "type": "AlignmentsTrack",
+      "trackId": "xrn3-nuclearRNA-non-polya",
+      "name": "xrn3-nuclearRNA-non-polya",
+      "category": [
+        "Non-polyA reads"
+      ],
+      "assemblyNames": [
+        "TAIR10"
+      ],
+      "adapter": {
+        "type": "BamAdapter",
+        "bamLocation": {
+          "uri": "https://data.cyverse.org/dav-anon/iplant/home/windz/termination/20210301_xrn3.elongating.bam"
+        },
+        "index": {
+          "location": {
+            "uri": "https://data.cyverse.org/dav-anon/iplant/home/windz/termination/20210301_xrn3.elongating.bam.bai"
+          },
+          "indexType": "BAI"
+        },
+        "sequenceAdapter": {
+          "type": "BgzipFastaAdapter",
+          "fastaLocation": {
+            "uri": "https://data.cyverse.org/dav-anon/iplant/home/windz/Arabidopsis_thaliana.TAIR10.dna.toplevel.fa.gz"
+          },
+          "faiLocation": {
+            "uri": "https://data.cyverse.org/dav-anon/iplant/home/windz/Arabidopsis_thaliana.TAIR10.dna.toplevel.fa.gz.fai"
+          },
+          "gziLocation": {
+            "uri": "https://data.cyverse.org/dav-anon/iplant/home/windz/Arabidopsis_thaliana.TAIR10.dna.toplevel.fa.gz.gzi"
+          }
+        }
+      }
+    },
+    {
+      "type": "AlignmentsTrack",
+      "trackId": "xrn3-nuclearRNA-polya",
+      "name": "xrn3-nuclearRNA-polya",
+      "category": [
+        "PolyA reads"
+      ],
+      "assemblyNames": [
+        "TAIR10"
+      ],
+      "adapter": {
+        "type": "BamAdapter",
+        "bamLocation": {
+          "uri": "https://data.cyverse.org/dav-anon/iplant/home/windz/termination/20210301_xrn3.polyadenylated.bam"
+        },
+        "index": {
+          "location": {
+            "uri": "https://data.cyverse.org/dav-anon/iplant/home/windz/termination/20210301_xrn3.polyadenylated.bam.bai"
+          },
+          "indexType": "BAI"
+        },
+        "sequenceAdapter": {
+          "type": "BgzipFastaAdapter",
+          "fastaLocation": {
+            "uri": "https://data.cyverse.org/dav-anon/iplant/home/windz/Arabidopsis_thaliana.TAIR10.dna.toplevel.fa.gz"
+          },
+          "faiLocation": {
+            "uri": "https://data.cyverse.org/dav-anon/iplant/home/windz/Arabidopsis_thaliana.TAIR10.dna.toplevel.fa.gz.fai"
+          },
+          "gziLocation": {
+            "uri": "https://data.cyverse.org/dav-anon/iplant/home/windz/Arabidopsis_thaliana.TAIR10.dna.toplevel.fa.gz.gzi"
+          }
+        }
+      }
     }
   ]
 }
