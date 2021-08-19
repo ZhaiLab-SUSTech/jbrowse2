@@ -51,6 +51,76 @@
           "indexType": "TBI"
         }
       }
+    },
+    {
+      "type": "AlignmentsTrack",
+      "trackId": "Col0-nuclearRNA-non-polya",
+      "name": "Col0-nuclearRNA-non-polya",
+      "category": [
+        "Non-polyA reads"
+      ],
+      "assemblyNames": [
+        "TAIR10"
+      ],
+      "adapter": {
+        "type": "BamAdapter",
+        "bamLocation": {
+          "uri": "https://data.cyverse.org/dav-anon/iplant/home/windz/termination/20210324_col_nuclear.elongating.bam"
+        },
+        "index": {
+          "location": {
+            "uri": "https://data.cyverse.org/dav-anon/iplant/home/windz/termination/20210324_col_nuclear.elongating.bam.bai"
+          },
+          "indexType": "BAI"
+        },
+        "sequenceAdapter": {
+          "type": "BgzipFastaAdapter",
+          "fastaLocation": {
+            "uri": "https://data.cyverse.org/dav-anon/iplant/home/windz/Arabidopsis_thaliana.TAIR10.dna.toplevel.fa.gz"
+          },
+          "faiLocation": {
+            "uri": "https://data.cyverse.org/dav-anon/iplant/home/windz/Arabidopsis_thaliana.TAIR10.dna.toplevel.fa.gz.fai"
+          },
+          "gziLocation": {
+            "uri": "https://data.cyverse.org/dav-anon/iplant/home/windz/Arabidopsis_thaliana.TAIR10.dna.toplevel.fa.gz.gzi"
+          }
+        }
+      }
+    },
+    {
+      "type": "AlignmentsTrack",
+      "trackId": "Col0-nuclearRNA-polya",
+      "name": "Col0-nuclearRNA-polya",
+      "category": [
+        "PolyA reads"
+      ],
+      "assemblyNames": [
+        "TAIR10"
+      ],
+      "adapter": {
+        "type": "BamAdapter",
+        "bamLocation": {
+          "uri": "https://data.cyverse.org/dav-anon/iplant/home/windz/termination/20210324_col_nuclear.polyadenylated.bam"
+        },
+        "index": {
+          "location": {
+            "uri": "https://data.cyverse.org/dav-anon/iplant/home/windz/termination/20210324_col_nuclear.polyadenylated.bam.bai"
+          },
+          "indexType": "BAI"
+        },
+        "sequenceAdapter": {
+          "type": "BgzipFastaAdapter",
+          "fastaLocation": {
+            "uri": "https://data.cyverse.org/dav-anon/iplant/home/windz/Arabidopsis_thaliana.TAIR10.dna.toplevel.fa.gz"
+          },
+          "faiLocation": {
+            "uri": "https://data.cyverse.org/dav-anon/iplant/home/windz/Arabidopsis_thaliana.TAIR10.dna.toplevel.fa.gz.fai"
+          },
+          "gziLocation": {
+            "uri": "https://data.cyverse.org/dav-anon/iplant/home/windz/Arabidopsis_thaliana.TAIR10.dna.toplevel.fa.gz.gzi"
+          }
+        }
+      }
     }
   ]
 }
