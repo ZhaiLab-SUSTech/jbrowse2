@@ -695,5 +695,23 @@
         }
       }
     }
+  ],
+  "aggregateTextSearchAdapters": [
+    {
+      "type": "TrixTextSearchAdapter",
+      "textSearchAdapterId": "TAIR10-index",
+      "ixFilePath": {
+        "uri": "trix/TAIR10.ix"
+      },
+      "ixxFilePath": {
+        "uri": "trix/TAIR10.ixx"
+      },
+      "metaFilePath": {
+        "uri": "trix/TAIR10_meta.json"
+      },
+      "assemblyNames": [
+        "TAIR10"
+      ]
+    }
   ]
 }

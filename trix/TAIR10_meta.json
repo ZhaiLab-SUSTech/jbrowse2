@@ -1,0 +1,35 @@
+{
+  "dateCreated": "2021-09-16T12:33:36.262Z",
+  "tracks": [
+    {
+      "trackId": "Araport11 gene locus",
+      "attributesIndexed": [
+        "ID",
+        "symbol"
+      ],
+      "excludedTypes": [
+        "CDS",
+        "exon",
+        "mRNA",
+        "protein",
+        "three_prime_UTR",
+        "five_prime_UTR"
+      ],
+      "adapterConf": {
+        "type": "Gff3TabixAdapter",
+        "gffGzLocation": {
+          "uri": "https://data.cyverse.org/dav-anon/iplant/home/windz/Araport11_GFF3_genes_transposons.201606.sorted.gff.gz"
+        },
+        "index": {
+          "location": {
+            "uri": "https://data.cyverse.org/dav-anon/iplant/home/windz/Araport11_GFF3_genes_transposons.201606.sorted.gff.gz.tbi"
+          },
+          "indexType": "TBI"
+        }
+      }
+    }
+  ],
+  "assemblyNames": [
+    "TAIR10"
+  ]
+}
