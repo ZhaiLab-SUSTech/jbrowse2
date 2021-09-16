@@ -694,6 +694,29 @@
           }
         }
       }
+    },
+    {
+      "type": "FeatureTrack",
+      "trackId": "termination_window",
+      "name": "Termination_window",
+      "category": [
+        "Termination window"
+      ],
+      "assemblyNames": [
+        "TAIR10"
+      ],
+      "adapter": {
+        "type": "BedTabixAdapter",
+        "bedGzLocation": {
+          "uri": "https://data.cyverse.org/dav-anon/iplant/home/windz/termination/tw.bed.gz"
+        },
+        "index": {
+          "location": {
+            "uri": "https://data.cyverse.org/dav-anon/iplant/home/windz/termination/tw.bed.gz.tbi"
+          },
+          "indexType": "TBI"
+        }
+      }
     }
   ],
   "aggregateTextSearchAdapters": [
