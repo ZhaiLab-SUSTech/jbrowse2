@@ -34,7 +34,7 @@
       {
         "id": "ahl4FowpJ",
         "type": "LinearGenomeView",
-        "offsetPx": 333,
+        "offsetPx": 378,
         "bpPerPx": 5.464161027017583,
         "displayedRegions": [
           {
@@ -60,6 +60,19 @@
             ]
           },
           {
+            "id": "3I6FUs7FQ",
+            "type": "FeatureTrack",
+            "configuration": "termination_window",
+            "displays": [
+              {
+                "id": "ZuoLdU58eO",
+                "type": "LinearBasicDisplay",
+                "height": 100,
+                "configuration": "termination_window-LinearBasicDisplay"
+              }
+            ]
+          },
+          {
             "id": "TNvLXU9qWL",
             "type": "AlignmentsTrack",
             "configuration": "Col0-nuclearRNA-non-polya",
@@ -76,6 +89,9 @@
                     "displayId": "Col0-nuclearRNA-non-polya-LinearAlignmentsDisplay_pileup_xyz"
                   },
                   "showSoftClipping": false,
+                  "colorBy": {
+                    "type": "strand"
+                  },
                   "filterBy": {
                     "flagInclude": 0,
                     "flagExclude": 1536
@@ -95,6 +111,9 @@
                   "filterBy": {
                     "flagInclude": 0,
                     "flagExclude": 1536
+                  },
+                  "colorBy": {
+                    "type": "strand"
                   }
                 },
                 "snpCovHeight": 45,
@@ -122,6 +141,9 @@
                     "displayId": "Col0-nuclearRNA-polya-LinearAlignmentsDisplay_pileup_xyz"
                   },
                   "showSoftClipping": false,
+                  "colorBy": {
+                    "type": "strand"
+                  },
                   "filterBy": {
                     "flagInclude": 0,
                     "flagExclude": 1536
@@ -141,6 +163,9 @@
                   "filterBy": {
                     "flagInclude": 0,
                     "flagExclude": 1536
+                  },
+                  "colorBy": {
+                    "type": "strand"
                   }
                 },
                 "snpCovHeight": 45,
@@ -163,10 +188,11 @@
       "hierarchicalTrackSelector": {
         "id": "hierarchicalTrackSelector",
         "type": "HierarchicalTrackSelectorWidget",
-        "collapsed": {},
+        "collapsed": {
+          "termination_window": true
+        },
         "filterText": "",
-        "view": "ahl4FowpJ",
-        "collapsedCategories": {}
+        "view": "ahl4FowpJ"
       }
     },
     "activeWidgets": {
