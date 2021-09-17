@@ -150,32 +150,6 @@
                 "showPileup": true
               }
             ]
-          },
-          {
-            "id": "-Ei_Nwaha",
-            "type": "FeatureTrack",
-            "configuration": "polyA sites",
-            "displays": [
-              {
-                "id": "wlmBvqnbOt",
-                "type": "LinearBasicDisplay",
-                "height": 100,
-                "configuration": "polyA sites-LinearBasicDisplay"
-              }
-            ]
-          },
-          {
-            "id": "PPfIQRiyVL",
-            "type": "FeatureTrack",
-            "configuration": "polyA clusters",
-            "displays": [
-              {
-                "id": "IUMzRQZQla",
-                "type": "LinearBasicDisplay",
-                "height": 100,
-                "configuration": "polyA clusters-LinearBasicDisplay"
-              }
-            ]
           }
         ],
         "hideHeader": false,
@@ -296,52 +270,6 @@
           "gziLocation": {
             "uri": "https://data.cyverse.org/dav-anon/iplant/home/windz/Arabidopsis_thaliana.TAIR10.dna.toplevel.fa.gz.gzi"
           }
-        }
-      }
-    },
-    {
-      "type": "FeatureTrack",
-      "trackId": "polyA clusters",
-      "name": "polyA clusters",
-      "category": [
-        "Polyadenylation sites"
-      ],
-      "assemblyNames": [
-        "TAIR10"
-      ],
-      "adapter": {
-        "type": "BedTabixAdapter",
-        "bedGzLocation": {
-          "uri": "https://data.cyverse.org/dav-anon/iplant/home/windz/termination/cbRNA.polya_cluster.bed.gz"
-        },
-        "index": {
-          "location": {
-            "uri": "https://data.cyverse.org/dav-anon/iplant/home/windz/termination/cbRNA.polya_cluster.bed.gz.tbi"
-          },
-          "indexType": "TBI"
-        }
-      }
-    },
-    {
-      "type": "FeatureTrack",
-      "trackId": "polyA sites",
-      "name": "polyA sites",
-      "category": [
-        "Polyadenylation sites"
-      ],
-      "assemblyNames": [
-        "TAIR10"
-      ],
-      "adapter": {
-        "type": "BedTabixAdapter",
-        "bedGzLocation": {
-          "uri": "https://data.cyverse.org/dav-anon/iplant/home/windz/termination/cbRNA.polya_cluster.summit.sorted.bed.gz"
-        },
-        "index": {
-          "location": {
-            "uri": "https://data.cyverse.org/dav-anon/iplant/home/windz/termination/cbRNA.polya_cluster.summit.sorted.bed.gz.tbi"
-          },
-          "indexType": "TBI"
         }
       }
     },
@@ -700,7 +628,7 @@
       "trackId": "termination_window",
       "name": "Termination_window",
       "category": [
-        "Termination window"
+        "Annotation"
       ],
       "assemblyNames": [
         "TAIR10"
@@ -708,11 +636,11 @@
       "adapter": {
         "type": "BedTabixAdapter",
         "bedGzLocation": {
-          "uri": "https://data.cyverse.org/dav-anon/iplant/home/windz/termination/tw.bed.gz"
+          "uri": "https://data.cyverse.org/dav-anon/iplant/home/windz/termination/ann.sorted.bed.gz"
         },
         "index": {
           "location": {
-            "uri": "https://data.cyverse.org/dav-anon/iplant/home/windz/termination/tw.bed.gz.tbi"
+            "uri": "https://data.cyverse.org/dav-anon/iplant/home/windz/termination/ann.sorted.bed.gz.tbi"
           },
           "indexType": "TBI"
         }
